@@ -23,7 +23,6 @@ public class UserResponse {
             this.role = user.getRole();
             this.createdAt = MyDateUtils.toStringFormat(user.getCreatedAt());
         }
-
     }
 
 }
